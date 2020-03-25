@@ -1,0 +1,43 @@
+@font-face {
+	font-family: "Hack Regular";
+	src: url("../fonts/Hack-Regular.ttf");
+}
+
+html {
+	background-color: #000000;
+	color: #00FF00;
+	font-family: "Hack Regular";
+}
+
+#stdout {
+	display: inline-block;
+	position: absolute;
+	overflow: scroll;
+	height: 95%;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+#controls {
+	display: inline-block;
+	position: fixed;
+	height: 5%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#commandbox {
+	position: absolute;
+	height: 88%;
+	width: 95%;
+	left: 0;
+}
+
+#commandlauncher {
+	position: absolute;
+	height: 100%;
+	width: 5%;
+	right: 0;
+}

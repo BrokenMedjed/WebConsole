@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" title="main-style" type="text/css" href="css/style.css" />
+
+		<script type="text/javascript" src="javascript/lib/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="javascript/lib/moment.js"></script>
+
+		<script type="text/javascript" src="javascript/main.js"></script>
+	</head>
+	<body>
+		<div id="stdout"></div>
+
+		<div id="controls">
+			<input type="textbox" id="commandbox" onkeypress="OnEnterPress(event, function() { Command.run() })"></input>
+
+			<button type="button" onClick="Command.run()" id="commandlauncher">Run</button>
+		</div>
+	</body>
+</html>
